@@ -1,0 +1,165 @@
+/*TOUTE MA PAGE*/
+
+* { /*code principal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HAUT DE PAGE*/
+
+
+header { /*haut de ma page*/
+    display: flex;
+    align-items: center;
+    background-color: #bdbdbd;
+    padding: 10px;
+}
+
+header img { /*logo de mon header*/
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 { /*titre de mon header*/
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+/*3 en 1*/
+
+
+#restaurant-info, #gallery, #order { /*mes trois sections*/
+    padding: 20px;
+    text-align: center;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    margin: 10px;
+}
+
+section h2 { /*titre de mes trois sections*/
+    width: 400px; 
+    text-transform: uppercase; 
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd; 
+    padding-bottom: 20px; 
+}
+
+
+/*PARTIE DESCRIPTION*/
+
+
+.img-description { /*image dans ma descritpion*/
+    display: inline-block;
+    width: 37%;
+    margin: 20px;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+}
+
+
+/*PARTIE MENU*/
+
+
+.dish {
+    margin-bottom: 20px;
+}
+
+.dish img {
+    width: 100px;
+    height: 100px;
+}
+
+.dish p {
+    margin: 5px 0;
+}
+
+section div h3 { /*type de plats de ma section*/
+    width: 200px; 
+    text-transform: uppercase; 
+    margin: 10px auto 20px auto;
+    border-bottom: 1px solid #6d6d6d; 
+    padding-bottom: 20px; 
+    font-size: 16px;
+}
+
+#pizza, #pates, #dessert { /*contour de mon menu - titre*/
+    border-color: black;
+    border-style: groove;
+    border-width: 0.1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section div article img { /*chaque image dans mon menu*/
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+section div article p { /*espacement de mes ingrédients*/
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+section div article { /*plat + texte*/
+    display: flex;
+    text-align: left;
+}
+
+section div article strong { /*nom du plat*/ 
+    font-size: 18px;
+}
+
+
+/*CONTACT*/
+
+
+#contact { /*toute ma partie contact*/
+    padding: 60px 0;
+    text-align: center; 
+}
+
+form {
+    margin: 60px 0 20px 0; 
+}
+
+label {
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-right: 10px; 
+    color: #777; 
+}
+
+input[type="text"] { /*champ nom + mail*/ 
+    padding: 10px; 
+    font-size: 20px; 
+    margin-right: 20px; 
+    border: 2px solid #ddd; 
+    border-radius: 3px;
+}
+.button { /*bouton OK*/
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 11px; 
+    background-color: #02b8dd;
+    border-style: none; 
+    border-radius: 3px; 
+}
+
+
+/*BAS DE PAGE*/
+
+
+footer { /*bas de ma page*/
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 10px;
+}
